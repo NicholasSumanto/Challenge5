@@ -109,12 +109,12 @@ class Trapesium {
   }
 }
 
-// Membuat objek trapesium
-const trapesiumTest = new Trapesium(8, 12, 5, 9, 3);
+// objek trapesium
+const trapesium = new Trapesium(8, 12, 5, 9, 3);
 
-// Menggunakan metode untuk menghitung keliling dan luas
-const keliling = trapesiumTest.kelilingTrapesium();
-const luas = trapesiumTest.luasTrapesium();
+// Memanggil fungsi keliling dan luas
+const keliling = trapesium.kelilingTrapesium();
+const luas = trapesium.luasTrapesium();
 
 console.log("\nTRAPESIUM :");
 console.log("Keliling trapesium:", keliling);
